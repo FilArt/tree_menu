@@ -1,0 +1,21 @@
+{% load draw_menu %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu</title>
+    <style>
+        #active {
+            border: 1px solid green;
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <h1>Тест1</h1>
+        {% draw_menu 'main_menu' %}
+    </div>
+
+</body>
+</html>
